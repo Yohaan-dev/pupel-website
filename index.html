@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Pupel- Website</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <div class="navbar">
+    <div class="container flex">
+      <h1 class="logo">Pupel.</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="docs.html">Docs</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- showcase -->
+  <section class="showcase">
+    <div class="container grid">
+      <div class="showcase-text">
+        <h1>Easier Deployment</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae similique, ipsam, ut dolorem iusto quo
+          debitis alias vitae ratione et reprehenderit! Natus vel sunt soluta fuga rem quaerat, rerum amet.</p>
+        <a href="features.html" class="btn btn-outline">Read More</a>
+      </div>
+      <div class="showcase-form card">
+        <h2>Request A Demmo</h2>
+        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact">
+          <p class="hidden">
+            <label>
+              Don’t fill this out if you’re human: <input name="bot-field" />
+            </label>
+          </p>
+          <div class="form-control">
+            <input type="text" name="name" placeholder="Name" required>
+          </div>
+          <div class="form-control">
+            <input type="text" name="company" placeholder="Company Name" required>
+          </div>
+          <div class="form-control">
+            <input type="email" name="email" placeholder="Email" required>
+          </div>
+          <input type="submit" value="Send" class="btn btn-primary">
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- stats -->
+  <section class="stats">
+    <div class="container">
+      <h3 class="stats-heading text-center my-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ullam
+        alias nisi architecto accusamus, neque sed eum ducimus quis voluptatum possimus consectetur! Ratione
+      </h3>
+
+      <div class="grid grid-3 text-center my-4">
+        <div>
+          <i class="fas fa-server fa-3x"></i>
+          <h3>10,456,789</h3>
+          <p class="text-secondary">Deployment</p>
+        </div>
+        <div>
+          <i class="fas fa-upload fa-3x"></i>
+          <h3>987 TB</h3>
+          <p class="text-secondary">Published</p>
+        </div>
+        <div>
+          <i class="fas fa-project-diagram fa-3x"></i>
+          <h3>2,456,897</h3>
+          <p class="text-secondary">Projects</p>
+        </div>
+      </div>
+  </section>
+
+  <!-- cli -->
+  <section class="cli">
+    <div class="container grid">
+      <img src="images/cli.png" alt="">
+      <div class="card">
+        <h2>Easy to use, cross platform CLI</h2>
+      </div>
+      <div class="card">
+        <h2>Deploy in seconds</h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- cloud -->
+  <section class="cloud bg-primary my-2 py-2">
+    <div class="container grid">
+      <div class="text-center">
+        <h2 class="lg">Extreme Cloud Hosting</h2>
+        <p class="lead my-1">Cloud hosting like you've never seen. fast,efficient and scalable</p>
+      <a href="features.html" class="btn btn-dark">Read More</a>
+      </div>
+      <img src="images/cloud.png" alt="">
+    </div>
+  </section>
+
+  <!-- languages -->
+  <section class="languages">
+    <h2 class="md text-center my-2">
+      Supported Languages
+    </h2>
+   <div class="container flex">  
+      <div class="card">
+        <h4>Node.Js</h4>
+        <img src="images/logo/node.png" alt="">
+      </div>
+      <div class="card">
+        <h4>Python</h4>
+        <img src="images/logo/python.png" alt="">
+      </div>
+      <div class="card">
+        <h4>Php</h4>
+        <img src="images/logo/php.png" alt="">
+      </div>
+      <div class="card">
+        <h4>Clojure</h4>
+        <img src="images/logo/clojure.png" alt="">
+      </div>
+      <div class="card">
+        <h4>C#</h4>
+        <img src="images/logo/csharp.png" alt="">
+      </div>
+      <div class="card">
+        <h4>Ruby</h4>
+        <img src="images/logo/ruby.png" alt="">
+      </div>
+      <div class="card">
+        <h4>Scala</h4>
+        <img src="images/logo/scala.png" alt="">
+      </div>
+   </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark py-5">
+    <div class="container grid grid-3">
+      <div>
+        <h2>Loruki
+        </h2>
+        <p>copy &copy; 2023</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="docs.html">Docs</a></li>
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="#"><i class="fab fa-github fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
